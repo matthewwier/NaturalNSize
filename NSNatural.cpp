@@ -20,10 +20,6 @@ template<class T, T n1, T n2> struct Select
 	static const bool equal = (n1 == n2);
 };
 
-template<class basic_type, class Type> struct ThrowingNaturalThrowOnOverflow
-{
-
-};
 template <int size, class basic_type=unsigned int> class NSizeNatural
 {
 	basic_type elementy[size];
